@@ -166,7 +166,6 @@ hr.hour{
 	border-left: 2px solid #6E7681;
 	padding-left: 3%;
    list-style: none;
-<<<<<<< HEAD
 }
 .ltr .glyphicon-stop{
    margin-right: 0.5em;
@@ -180,20 +179,6 @@ hr.hour{
   text-align: center;
 }
 <<<<<<< HEAD
-=======
-}
-.ltr .glyphicon-stop{
-   margin-right: 0.5em;
-}
-#interferencia .listica2 li{
-   margin: 1% 0;
-}
-.credito{
-  font-size: 15px;
-  color: #919191;
-  text-align: center;
-}
->>>>>>> parent of 2079163... seccion 4
 /*Off interferencia*/
 #tratamientos .listica2,
 #neurofocal .listica2{
@@ -222,11 +207,45 @@ hr.hour{
    margin-bottom: 5%;
 }
 /*Off tratamientos*/
-=======
+
+.marco{
+  padding: 5%;
+}
+
+#servicios{
+  background-color: #EEEEEE;
+}
+
+#servicios .servicetittle h3{
+  padding: 5% 0%;
+  color: #5E5E5E;
+  font-size: 30px;
+}
+
+.marco{
+  position: relative;
+  overflow: hidden;
+  background: white;
+    border: solid 1px #DFDEDE;
+    padding: 4%;
+    min-height: 75px;
+    color: #878787;
+    margin-bottom: 10%;
+}
+
+.marco p{
+  margin: 0;
+}
+
+.centrado{
+  padding-top: 5%;
+}
 
 
 /*Off servicios*/
->>>>>>> origin/master
+
+/*Off servicios*/
+
 
 #testimonio{
 	margin-top: 5%;
