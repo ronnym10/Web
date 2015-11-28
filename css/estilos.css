@@ -166,6 +166,7 @@ hr.hour{
 	border-left: 2px solid #6E7681;
 	padding-left: 3%;
    list-style: none;
+<<<<<<< HEAD
 }
 .ltr .glyphicon-stop{
    margin-right: 0.5em;
@@ -179,6 +180,20 @@ hr.hour{
   text-align: center;
 }
 <<<<<<< HEAD
+=======
+}
+.ltr .glyphicon-stop{
+   margin-right: 0.5em;
+}
+#interferencia .listica2 li{
+   margin: 1% 0;
+}
+.credito{
+  font-size: 15px;
+  color: #919191;
+  text-align: center;
+}
+>>>>>>> parent of 2079163... seccion 4
 /*Off interferencia*/
 #tratamientos .listica2,
 #neurofocal .listica2{
