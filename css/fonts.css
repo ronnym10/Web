@@ -31,14 +31,12 @@
 
 /* embrima font */
 @font-face {
-  font-family: 'EmbrimaBold';
-  src: url('ebrima-bold.eot'); /* IE9 Compat Modes */
-  src: url('ebrima-bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('ebrima-bold.woff') format('woff'), /* Pretty Modern Browsers */
-       url('ebrima-bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+  font-family: 'EbrimaBold';
+  src: url('../fonts/ebrima-bold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/ebrima-bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/ebrima-bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/ebrima-bold.ttf')  format('truetype'); /* Safari, Android, iOS */
+
 }
 
 /* ============== */
-.ebrima-bold-font{
-  font-family: 'EmbrimaBold'
-}

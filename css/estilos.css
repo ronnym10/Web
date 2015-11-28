@@ -17,27 +17,31 @@ body{
 
 }
 #header{
-	background-color: #F5F5F5;
-	background-image: url('../img/heade-bg.jpg');
+	background-color: #FEFEFE;
+	background: url('../img/heade-bg.jpg') repeat-x;
 }
 #header .logo{
-    height: 166px;
-}
-#header .dra{
-	color:#786833;
+    height: 130px;
+		margin-top:3%;
 }
 .direccion{
 	color: white;
-  background-color:#0081DF;
-	margin: 2% 0;
-  
+  background-color:#3680DB;
+	margin: 0 0 0 10%;
+	height: 166px;
+	padding: 5%;
+
 }
 .flecha h3{
 	margin:5px;
-   font-family: 'Cadara' !important;
-	font-size: 22px;
+  font-family: 'Cadara' !important;
+	font-size: 24px;
    font-weight: normal;
    font-style: normal;
+}
+
+h3.ebrima-bold-font{
+	font-family: 'EbrimaBold' !important;
 }
 /*Off header*/
 
@@ -66,6 +70,7 @@ body{
 }
 .INFO h1{
    line-height: 1.5;
+	 font-size: 40px;
 }
 .INFO p{
    line-height: 1.5;
@@ -100,9 +105,6 @@ body{
    color: white;
 }
 
-#banner .INFO h1{
-   font-family:'COPRGTL' !important;
-}
 .hr-white{
    width: 45%;
 }
@@ -331,6 +333,8 @@ footer .btn-golden{
   line-height: 1.5;
   font-family: 'Cadara' !important;
 }
+
+
 /* media query */
 @media (min-width: 768px){
 .modal-dialog {
