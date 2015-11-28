@@ -12,7 +12,7 @@ body{
 #main h3,
 #main h2,
 #main h1{
-   margin: 4px;
+   margin: 4pxs;
    font-family: 'Ebrima';
 
 }
@@ -154,23 +154,37 @@ hr.hour{
 }
 /*Off relacion*/
 
-#interferencia .listica{
-	border-left: 2px solid #6E7681;
-	padding-left: 3%;
-   list-style: none;
+#servicios{
+  background-color: #EEEEEE;
 }
-.ltr .glyphicon-stop{
-   margin-right: 0.5em;
+
+#servicios .servicetittle h3{
+  padding: 5% 0%;
+  color: #5E5E5E;
+  font-size: 30px;
 }
-#interferencia .listica2 li{
-   margin: 1% 0;
+
+.marco{
+  position: relative;
+  overflow: hidden;
+  background: white;
+    border: solid 1px #DFDEDE;
+    padding: 4%;
+    min-height: 75px;
+    color: #878787;
+    margin-bottom: 10%;
+
 }
-.credito{
-  font-size: 15px;
-  color: #919191;
-  text-align: center;
+.marco p{
+  margin: 0;
 }
-/*Off interferencia*/
+
+.centrado{
+  padding-top: 5%;
+}
+
+
+/*Off servicios*/
 #tratamientos .listica2,
 #neurofocal .listica2{
 	border-left: 2px solid #6E7681;
