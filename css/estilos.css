@@ -185,47 +185,23 @@ hr.hour{
 
 
 /*Off servicios*/
-#tratamientos .listica2,
-#neurofocal .listica2{
-	border-left: 2px solid #6E7681;
-   padding: 0 0  0 3% ;
-   list-style: none;
-}
-
-.listica4{
-   padding: 0 0  0 3% ;
-   list-style: none;
-}
-#tratamientos .listica2{
-   border-color: white;
-}
-#tratamientos .listica2 li{
-   margin: 1.5% 0;
-}
-/*Off neurofocal*/
-
-#tratamientos{
-	background-color: #A69045;
-	color: white;
-}
-#tratamientos h2{
-   margin-bottom: 5%;
-}
-/*Off tratamientos*/
 
 #testimonio{
 	margin-top: 5%;
 }
 
-#testimonio .titulo{
-	color: #7C6C3A;
+#testimonio .titulero{
+	color: #5E5E5E;
 	font-size: bold;
    margin-bottom: 4%;
+   text-align: justify;
 }
-.listica3{
-   	border-left: 1px solid #6E7681;
-      padding-left: 3%;
+hr.linero{
+    width: 75%;
+    height: 8px;
+    background-color: #0081DF;
 }
+
 
 /*Off testimonio*/
 
