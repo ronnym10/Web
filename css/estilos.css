@@ -178,6 +178,7 @@ hr.hour{
   color: #919191;
   text-align: center;
 }
+<<<<<<< HEAD
 /*Off interferencia*/
 #tratamientos .listica2,
 #neurofocal .listica2{
@@ -206,20 +207,28 @@ hr.hour{
    margin-bottom: 5%;
 }
 /*Off tratamientos*/
+=======
+
+
+/*Off servicios*/
+>>>>>>> origin/master
 
 #testimonio{
 	margin-top: 5%;
 }
 
-#testimonio .titulo{
-	color: #7C6C3A;
+#testimonio .titulero{
+	color: #5E5E5E;
 	font-size: bold;
    margin-bottom: 4%;
+   text-align: justify;
 }
-.listica3{
-   	border-left: 1px solid #6E7681;
-      padding-left: 3%;
+hr.linero{
+    width: 75%;
+    height: 8px;
+    background-color: #0081DF;
 }
+
 
 /*Off testimonio*/
 
