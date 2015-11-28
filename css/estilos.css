@@ -12,7 +12,7 @@ body{
 #main h3,
 #main h2,
 #main h1{
-   margin: 0;
+   margin: 4px;
    font-family: 'Ebrima';
 
 }
@@ -108,25 +108,32 @@ body{
 }
 /*Off header*/
 
+.titulour{
+  color: white;
+}
+
 #relacion{
-	margin-top: 5%;
+	padding-top: 5%;
+  background-color: #00BB39;
 }
 
 #neurofocal .titulo,
 #interferencia .titulo,
 #relacion .titulo{
 	/*margin-top: 10%;*/
-	color: #786833;
+	color: white;
 	font-size: bold;
    margin-bottom: 5%;
 }
 
 
 #relacion .parrafito{
-	color: #5C5C5C;
-	border-left: 2px solid #6E7681;
-	padding-left: 3%;
 	margin-top:9%;
+  color: white;
+}
+
+hr.hour{
+  width: 55%;
 }
 
 .btn-info1{
