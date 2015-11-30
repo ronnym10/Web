@@ -179,10 +179,16 @@ h3.ebrima-bold-font{
 }
 
 #relacion{
-	padding-top: 5%;
   background-color: #00BB39;
 }
+#relacion .pad{
+  padding: 5% 0;
+}
 
+.mapa{
+    margin-right: -16%;
+    width: 66%;
+}
 #neurofocal .titulo,
 #interferencia .titulo,
 #relacion .titulo{
@@ -342,9 +348,12 @@ footer h3{
 
 
 /* media query */
-@media (min-width: 992px){
+@media (max-width: 1024px){
   .direccion{
     margin-left: 15%;
+  }
+  .mapa{
+    width: 69%;
   }
 }
 @media (max-width:768px){
@@ -366,6 +375,10 @@ footer h3{
     padding: 5% 17% 0;
     height: 120px;
     margin-left: 11%;
+  }
+  .mapa{
+    margin-right: -31%;
+    width: 87%;
   }
   .arrow{
     height: 120px;
@@ -425,6 +438,10 @@ footer h3{
 
   footer .direccion{
     padding: 0;
+  }
+  .mapa{
+    margin-right:0;
+    width: 100%;
   }
   .hour{
     text-align: center;

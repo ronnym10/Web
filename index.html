@@ -20,7 +20,13 @@
 	<!-- End resolucion de formulario -->
 
 	<!-- Google Tag Manager -->
-
+	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5CN46Z"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-5CN46Z');</script>
 	<!-- End Google Tag Manager -->
 
 	<!-- redireccion  del formulario -->
@@ -89,10 +95,10 @@
 			</div>
 		</section>
 
-		<section id="relacion" class="pad">
+		<section id="relacion">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-5 col-sm-5 hour">
+						<div class="col-md-5 col-sm-5 hour pad">
 							<h2 class="titulour">HORARIO <strong>DE ATENCION</strong></h2>
 							<hr class="hour" align="left">
 								<div class="parrafito">
@@ -108,9 +114,8 @@
 								</div>						
 
 						</div> <!-- Off Definicionr -->
-						<div class="col-md-7  col-sm-7 reladient">
-							 <img src="img/dientes-organimos.jpg" class="center-block img-responsive" alt="Relacion">
-						</div> <!-- Off Relacion -->
+						<!-- mapa  -->
+						<img src="img/mapa.jpg" class="img-responsive pull-left mapa" alt="Relacion">
 
 					</div> <!-- Off Row -->
 				</div> <!-- Off Container -->
@@ -256,25 +261,25 @@
 				</div>
 				<div class="modal-body">
 					<!-- mautic -->
-					<form id="formuler1" action="https://docs.google.com/forms/d/1o5JESKLKzktGEJsYiTaj_wmH0xyEy8asIPf3-FEFXX4/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
+					<form id="formuler1" action="https://docs.google.com/forms/d/1n4aXrwOF2HqxHeRqu0ulXXBQZs0M4BZYmlchS-JeCpY/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
 							<div class="form-group col-md-6">
-								 <input type="text" name="entry.1349277326" id="" class="form-control" placeholder="Nombre:">
+								 <input type="text" name="entry.53720228" id="" class="form-control" placeholder="Nombre:" data-validation="required"  data-validation-error-msg="Este Campo es obligatorio">
 							</div>
 
 							<div class="form-group col-md-6">
-								<input type="text" name="entry.650221141" id="" class="form-control" placeholder="Apellido:">
+								<input type="text" name="entry.665759597" id="" class="form-control" placeholder="Apellido:" data-validation="required" data-validation-error-msg="Este Campo es obligatorio">
 							</div>
 
 							<div class="form-group">
-								<input type="text" name="entry.346365688" id="" class="form-control" placeholder="Correo Electronico:">
+								<input type="text" name="entry.164742224" id="" class="form-control" placeholder="Correo Electronico:" data-validation="required" data-validation-error-msg="Este Campo es obligatorio">
 							</div>
 
 							<div class="form-group">
-								<input type="text" name="entry.1307682021" id="" class="form-control" placeholder="Teléfono:">
+								<input type="text" name="entry.256640607" id="" class="form-control" placeholder="Teléfono:" data-validation="required" data-validation-error-msg="Este Campo es obligatorio">
 							</div>
 
 							<div class="form-group">
-								<textarea name="entry.1233583205" id="" cols="10" rows="2" placeholder="¿Cual es tu Emergencia?" class="form-control"></textarea>
+								<textarea name="entry.1171006329" id="" cols="10" rows="2" placeholder="¿Cual es tu Emergencia?" class="form-control" data-validation="required" data-validation-error-msg="Este Campo es obligatorio"></textarea>
 							</div>
 							<div class="form-group text-center">
 								 <input type="submit" value="PEDIR UNA VALORACION" class="btn btn-white-grey ">
@@ -294,5 +299,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 <script src="js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.2.8/jquery.form-validator.min.js"></script>
+<script>
+	$.validate(); 
+</script>
 </body>
 </html>
