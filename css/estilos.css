@@ -392,8 +392,11 @@ footer h3{
     margin-left: 11%;
   }
   .mapa{
-    margin-right: -31%;
-    width: 87%;
+    margin-right: -40%;
+    width: 98%;
+  }
+  .direc{
+    right: 1%;
   }
   .arrow{
     height: 120px;
@@ -488,6 +491,9 @@ footer h3{
   .marco .col-xs-8{
     padding-top: 5%;
   }
+  .direc{
+    width: 75%;
+  }
 }
 
 @media (max-width:330px){
@@ -505,5 +511,8 @@ footer h3{
   }
   .btn{
     font-size: 75%;
+  }
+  .direc{
+    width: 100%;
   }
 }
