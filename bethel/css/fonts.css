@@ -1,0 +1,42 @@
+/* fuentes */
+@font-face {
+    font-family: 'Cadara';
+    src: url('../fonts/Candara.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CadaraBold';
+    src: url('../fonts/Candarab.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* font tw cent*/
+@font-face {
+    font-family: 'Tw Cent';
+    src: url('../fonts/Tw-Cen-MT.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* embria */
+@font-face {
+    font-family: 'Ebrima';
+    src: url('../fonts/ebrima.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* embrima font */
+@font-face {
+  font-family: 'EbrimaBold';
+  src: url('../fonts/ebrima-bold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/ebrima-bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/ebrima-bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/ebrima-bold.ttf')  format('truetype'); /* Safari, Android, iOS */
+
+}
+
+/* ============== */

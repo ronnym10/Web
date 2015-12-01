@@ -1,0 +1,534 @@
+
+body{
+	font-size: 16px;
+   color: #484848;
+   font-family: 'Cadara'
+}
+
+hr{
+	height: 1px;
+	border: none;
+	background-color:white;
+}
+
+ul{
+  padding-left: 0;
+}
+ul li {list-style-type: none;}
+ul li:before{
+	content: "-   ";
+}
+
+#main{
+   font-size: 1.1em;
+}
+
+#main h4,
+#main h3,
+#main h2,
+#main h1{
+   margin: 4px;
+   font-family: 'Ebrima';
+
+}
+
+/* botones */
+.btn{
+   margin-top: 2%;
+   font-weight: bold;
+   font-family: 'EbrimaBold';
+   font-size: 1em;
+   padding: 3% 3.5%;
+   font-weight: bold;
+}
+
+.btn-white-grey, .btn-white-grey:active{
+  background: #fffefe;
+  background: -moz-linear-gradient(top,  #fffefe 34%, #e8e9e8 100%);
+  background: -webkit-linear-gradient(top,  #fffefe 34%,#e8e9e8 100%);
+  background: linear-gradient(to bottom,  #fffefe 34%,#e8e9e8 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffefe', endColorstr='#e8e9e8',GradientType=0 );
+  
+  color:#3680DB;
+  
+}
+
+.btn-green, .btn-green:active {
+  background: #4cbb48;
+  background: -moz-linear-gradient(top,  #4cbb48 34%, #45aa40 100%);
+  background: -webkit-linear-gradient(top,  #4cbb48 34%,#45aa40 100%);
+  background: linear-gradient(to bottom,  #4cbb48 34%,#45aa40 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4cbb48', endColorstr='#45aa40',GradientType=0 );
+  
+  color: white;
+  padding: 2% 2.5%;
+}
+
+
+#header{
+	background-color: #FEFEFE;
+	background: url('../img/heade-bg.jpg') repeat-x;
+}
+#header .logo{
+    height: 130px;
+		margin-top:3%;
+}
+.header-list li{
+  line-height: 1.5;
+  font-size: 1.4em;
+}
+.sepheader{
+	width: 50%;
+	background-color: #00B83B;
+}
+.direccion{
+	color: white;
+  background-color:#3680DB;
+	margin: 0 0 0 10%;
+	height: 166px;
+  padding: 5% 19% 5% 0;
+  margin-right: -18.9%;
+
+}
+.flecha h3{
+	margin:5px;
+  font-family: 'Cadara' !important;
+	font-size: 24px;
+   font-weight: normal;
+   font-style: normal;
+}
+
+h3.ebrima-bold-font{
+	font-family: 'EbrimaBold' !important;
+}
+/*Off header*/
+
+#banner{
+	background-image: url('../img/banner.jpg');
+   background-repeat: no-repeat;
+   background-position: 100% 0;
+   background-size: cover;
+	min-height: 668px;
+   padding: 5%;
+   position: relative;
+}
+
+.cover{
+   position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.5;
+}
+.INFO h1{
+   line-height: 1.5;
+	 font-size: 40px;
+}
+.INFO p{
+   line-height: 1.5;
+   font-size: 1.3em;
+}
+/* Columna  de numero */
+.container-emergency h3{
+  margin: 0 !important;
+}
+
+.phone{
+  margin-right: 10px;
+}
+
+.colonum a{
+  font-weight: bold;
+  font-size: 1.3em;
+  text-decoration: none;
+  color: #4BB947;
+  letter-spacing: -1px;
+}
+
+#myModal .col-md-6{
+   padding-left: 0;
+   padding-right: 0;
+}
+
+#myModal .form-control{
+  border: #CCCCCC solid 1px;
+  padding: 1.5em;
+}
+
+#myModal .btn-golden{
+  font-size: 0.89em;
+}
+.close{
+  font-size: 2em;
+  margin: -7px 5px;
+}
+#banner {
+   color: white;
+}
+
+.hr-white{
+   width: 45%;
+}
+/*Off header*/
+
+.titulour{
+  color: white;
+}
+
+#relacion{
+  background-color: #00BB39;
+}
+#relacion .pad{
+  padding: 5% 0;
+}
+
+.mapa{
+    margin-right: -31%;
+
+}
+.mapita{
+ position: relative;
+}
+.direc{
+    position: absolute;
+    width: 46%;
+    background-color: white;
+    top: 18px;
+    right: -5%;
+    padding-top:5px;
+    text-align: center;
+    border: solid #ECEEED 0.5em;  
+
+}
+#neurofocal .titulo,
+#interferencia .titulo,
+#relacion .titulo{
+	/*margin-top: 10%;*/
+	color: white;
+	font-size: bold;
+   margin-bottom: 5%;
+}
+
+
+#relacion .parrafito{
+	margin: 9% 0;
+  color: white;
+}
+
+hr.hour{
+  width: 55%;
+}
+
+.btn-info1{
+	border-color: #A59044;
+	color: #786833;
+	font-weight: bold;
+	margin-top: 7%;
+	border-width: 4px;
+	padding: 3% 6%
+}
+
+.btn-extra{
+   margin-top: 3% !important;
+   font-size: 1.3em;
+   padding: 6% !important;
+}
+/*Off relacion*/
+
+#interferencia .listica{
+	border-left: 2px solid #6E7681;
+	padding-left: 3%;
+   list-style: none;
+}
+.ltr .glyphicon-stop{
+   margin-right: 0.5em;
+}
+#interferencia .listica2 li{
+   margin: 1% 0;
+}
+.credito{
+  font-size: 15px;
+  color: #919191;
+  text-align: center;
+}
+
+.marco{
+  padding: 5%;
+}
+
+#servicios{
+  background-color: #EEEEEE;
+  -webkit-box-shadow: inset 10px 24px 73px -40px rgba(66,65,66,1);
+-moz-box-shadow: inset 10px 24px 73px -40px rgba(66,65,66,1);
+box-shadow: inset 10px 24px 73px -40px rgba(66,65,66,1);
+}
+
+#servicios .servicetittle h3{
+  padding: 5% 0%;
+  color: #5E5E5E;
+  font-size: 30px;
+}
+
+.marco{
+  position: relative;
+  overflow: hidden;
+  background: white;
+    border: solid 1px #DFDEDE;
+    padding: 4%;
+    min-height: 75px;
+    color: #878787;
+    margin-bottom: 10%;
+}
+
+.marco p{
+  margin: 0;
+}
+
+.centrado{
+  padding-top: 5%;
+}
+
+
+/*Off servicios*/
+
+/*Off servicios*/
+
+
+#testimonio{
+	margin-top: 5%;
+}
+
+#testimonio .titulero{
+	color: #5E5E5E;
+	font-size: bold;
+   margin-bottom: 4%;
+   text-align: justify;
+}
+hr.linero{
+    width: 75%;
+    height: 8px;
+    background-color: #0081DF;
+}
+
+
+/*Off testimonio*/
+
+
+.pad{
+   padding:2.5% 0;
+}
+.pad-item{
+   padding: 0 0 2em 0;
+}
+
+.form-control{
+   border-radius: 0;
+}
+/* footer */
+footer{
+   background-color: #3680DB;
+   color: white;
+}
+footer .direccion{
+  margin-right: 0;
+}
+footer h3{
+   font-family: 'Cadara' !important;
+}
+
+.logo-footer{
+   margin: 5% 0 !important;
+   height: 110px;
+}
+
+#myModal .modal-content{
+  border-radius:0;
+  background-color: #3680DB;
+  color:white;
+}
+
+#thks{
+  margin-top: 5%;
+}
+#main #thks h1{
+    font-family: 'Cadara' !important;
+    font-size: 5em;
+}
+#main #thks h3{
+  margin-top: 5%;
+  line-height: 1.5;
+  font-family: 'Cadara' !important;
+}
+
+
+/* media query */
+@media (max-width: 1024px){
+  .direccion{
+    margin-left: 15%;
+    margin-right: -7.3%;
+    padding: 5% 9% 5% 0;
+  }
+  .mapa{
+    margin-right: -24%;
+    width: 78%;
+  }
+  .direc{
+    right:1%;
+  }
+}
+@media (max-width:768px){
+
+  .modal-dialog {
+    width: 400px;
+  }
+
+  .btn-extra{
+    font-size: 100%
+  }
+
+  #header .logo {
+    margin-top: 0;
+    text-align: center;
+    height: 120px;
+  }
+  .direccion{
+    padding: 5% 17% 0;
+    height: 120px;
+    margin-left: 11%;
+  }
+  .mapa{
+    margin-right: -40%;
+    width: 98%;
+  }
+  .direc{
+    right: 1%;
+  }
+  .arrow{
+    height: 120px;
+  }
+    .pull-left.phone{
+    float: none !important;
+  }
+
+  #main .direccion h3{
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 1em;
+  }
+
+  #banner{
+    padding-top: 3%;
+    background-position: center center;
+  }
+
+  .INFO{
+    text-align: center;
+    margin-bottom: 2em;
+  }
+  .hr-white{
+    width: 100%;
+  }
+  .titulo{
+    text-align: center;
+  }
+
+  .pull-right{
+    float: none !important;
+  }
+
+  .pad-sm{
+    margin: 5%;
+  }
+  footer .direccion{
+    padding: 10% 0 0 0;
+    margin:0;
+  }
+}
+
+@media (max-width:640px){
+  .arrow{
+    display: none;
+  }
+  .direccion{
+    padding: 3% 6%;
+    height: 91px;
+    margin: 0 -6%;
+    text-align: center;
+  }
+  .text-left{
+    text-align: center;
+  }
+
+  footer .direccion{
+    padding: 0;
+  }
+  .mapa{
+    margin-right:0;
+    width: 100%;
+  }
+  .hour{
+    text-align: center;
+  }
+  hr.hour {
+    width: 90%;
+    margin: 2% 5%;
+  }
+  .sepheader{
+    width: 100%;
+  }
+}
+@media (max-width:480px){
+  .direccion{
+    text-align: center;
+  }
+  h1{
+    font-size: 26px;
+  }
+  h2{
+    font-size: 22px;
+  }
+  h3{
+    font-size: 18px;
+  }
+  .col-xs-6{
+    width: 100%;
+  }
+  .marco .col-xs-8{
+    padding-top: 5%;
+  }
+  .direc{
+    width: 75%;
+  }
+  .modal-content{
+    width: 90%;
+     margin:0 -1%
+  }
+}
+
+@media (max-width:330px){
+  .INFO h1{
+    font-size: 28px !important;
+  }
+  h1{
+    font-size: 24px !important;
+  }
+  h2{
+    font-size: 18px;
+  }
+  h3{
+    font-size: 16px;
+  }
+  .btn{
+    font-size: 75%;
+  }
+  .direc{
+    width: 100%;
+  }
+  .modal-content{
+    width: 80%;
+   
+  }
+}
