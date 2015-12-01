@@ -186,8 +186,22 @@ h3.ebrima-bold-font{
 }
 
 .mapa{
-    margin-right: -16%;
-    width: 66%;
+    margin-right: -31%;
+
+}
+.mapita{
+ position: relative;
+}
+.direc{
+    position: absolute;
+    width: 46%;
+    background-color: white;
+    top: 18px;
+    right: 1%;
+    padding-top:5px;
+    text-align: center;
+    border: solid #ECEEED 10px;  
+
 }
 #neurofocal .titulo,
 #interferencia .titulo,
@@ -353,7 +367,8 @@ footer h3{
     margin-left: 15%;
   }
   .mapa{
-    width: 69%;
+    margin-right: -24%;
+    width: 78%;
   }
 }
 @media (max-width:768px){
