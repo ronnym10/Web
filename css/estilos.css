@@ -197,10 +197,10 @@ h3.ebrima-bold-font{
     width: 46%;
     background-color: white;
     top: 18px;
-    right: 1%;
+    right: -5%;
     padding-top:5px;
     text-align: center;
-    border: solid #ECEEED 10px;  
+    border: solid #ECEEED 0.5em;  
 
 }
 #neurofocal .titulo,
