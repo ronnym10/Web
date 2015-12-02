@@ -1,0 +1,46 @@
+/*========= [ GENERAL / ETIQUETAS ]============== */
+body{
+	color: #5C5C5C;
+}
+a, a:hover{
+	color: inherit;
+}
+
+/*========= [ header ]============== */
+header{
+	background: url('../img/color-header.jpg') repeat-x;
+}
+
+.marco{
+	padding-top: 1%;
+	background-color: #0052A5;
+	overflow: hidden;
+}
+
+.nav{
+	padding-top: 5%;
+}
+
+.sep-right{
+	font-size: 1.2em;
+}
+/*========= [ botones ]============== */
+.btn{
+	padding: 1em;
+}
+
+.btn-white-border{
+	border: solid 2px white;
+	color: white;
+	margin-top: 5%;	
+	max-width: 65%;
+}
+
+.btn-white-border:hover{
+	color: white;
+}
+
+/*========= [ colores  ]============== */
+.color-white{
+	color: white;
+}
