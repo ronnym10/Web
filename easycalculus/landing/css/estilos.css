@@ -40,7 +40,143 @@ header{
 	color: white;
 }
 
+.btn-ofer{
+	background-color: #F19700;
+	color: white;
+}
 /*========= [ colores  ]============== */
 .color-white{
 	color: white;
+}
+/*========= [ INFO  ]============== */
+.infoa{
+	padding-top: 10%;
+	color: #545454;
+}
+.gvo{
+	padding-top: 2%;
+}
+hr{
+	border: solid #0051A9 5px;
+	width: 55%;
+}
+/*========= [ OFRECEMOS  ]============== */
+.ofer{
+	padding: 5% 0;
+	color: #545454;
+}
+.encierro{
+	background-color: #FBFBFB;
+	margin: 10% -2% 0%;
+	text-align: center;
+}
+#ofrecemos .text{
+	font-size: 120%;
+
+}
+#ofrecemos p{
+	padding-top: 5%;
+}
+.btn-ofer{
+	margin: 5% 0; 
+}
+
+/*========= [ BANNER  ]============== */
+#banner{
+	background-image: url('../img/banner.jpg');
+   background-repeat: no-repeat;
+   background-position: 100% 0;
+   background-size: cover;
+	min-height: 668px;
+   padding: 5%;
+   position: relative;
+   text-align: center;
+}
+.tittleb{
+	color: white;
+	padding-bottom: 3%;
+	padding-right: 10%;
+}
+.fila{
+	padding: 2% 3%;
+	padding-right: 10%;
+}
+.fila p{
+	color: white;
+	font-size: 120%;
+	padding-top: 5%;
+}
+/*========= [ BANNER  ]============== */
+.blanco{
+	background-image: url('../img/blanco.jpg');
+	 background-repeat: no-repeat;
+   background-position: 100% 0;
+   background-size: contain;
+	min-height: 300px;
+   padding: 6%;
+   position: relative;
+   text-align: center;
+}
+#promo .pro{
+	padding-top: 55%;
+	font-size: 200%;
+	color:#F19700;
+}
+.blanco p{
+	color: #434343;
+}
+.blanco h4{
+	color: #0958D3;
+	font-size: 142%;
+
+}
+
+.ban{
+	padding-top: 17% !important;
+}
+.ban p{
+	color: white;
+}
+.ban h4{
+	color: white;
+	font-size: 21px;
+}
+.azul{
+	background-image: url('../img/azul.jpg');
+	 background-repeat: no-repeat;
+   background-position: 100% 0;
+   background-size: contain;
+	min-height: 335px;
+   padding: 6%;
+   position: relative;
+   text-align: center;
+}
+.azul.ban h4{
+	font-size: 23px;
+}
+
+.verde{
+	background-image: url('../img/verde.jpg');
+	 background-repeat: no-repeat;
+   background-position: 100% 0;
+   background-size: contain;
+	min-height: 335px;
+   padding: 6%;
+   position: relative;
+   text-align: center;
+}
+
+.naranja{
+	background-image: url('../img/naranja.jpg');
+	 background-repeat: no-repeat;
+   background-position: 100% 0;
+   background-size: contain;
+	min-height: 332px;
+   padding: 6%;
+   position: relative;
+   text-align: center;
+   margin-left: -1%;
+}
+#promo .container{
+	padding: 0;
 }
