@@ -59,24 +59,26 @@
 	.ban{
 		padding-top: 45% !important;
 	}
-}
-
-/*========= [ telefonos gama baja]============== */
-@media (max-width:330px){
-	.btn{
-		word-wrap: break-word;
-		position: relative;
-		white-space:pre-line;
-	}
-	.col-xs-6{
-		width: 100%;
-	}
 	.modal-content{
 		width: 98%;
 	}
 	.form{
 		width: 98%;
 	}
+		.btn{
+		word-wrap: break-word;
+		position: relative;
+		white-space:pre-line;
+	}
+}
+
+/*========= [ telefonos gama baja]============== */
+@media (max-width:330px){
+
+	.col-xs-6{
+		width: 100%;
+	}
+
 	.btn-principal:hover{
 		font-size: 100%;
 	}
