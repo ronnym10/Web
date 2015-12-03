@@ -1,6 +1,8 @@
 /*========= [ GENERAL / ETIQUETAS ]============== */
 body{
 	color: #5C5C5C;
+	font-family: 'Slabo 27px', serif;
+	font-size: 16px;
 }
 a, a:hover{
 	color: inherit;
@@ -44,9 +46,39 @@ header{
 	background-color: #F19700;
 	color: white;
 }
+
+.btn-principal, .btn-principal:hover{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fddc32+0,fddc32+38,de9b04+100 */
+	background: #fddc32; /* Old browsers */
+	background: -moz-linear-gradient(top,  #fddc32 0%, #fddc32 38%, #de9b04 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #fddc32 0%,#fddc32 38%,#de9b04 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #fddc32 0%,#fddc32 38%,#de9b04 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fddc32', endColorstr='#de9b04',GradientType=0 ); /* IE6-9 */
+
+	color: white;
+	padding: 3% 8%;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 1.2em;
+	border-radius: 0;
+}
 /*========= [ colores  ]============== */
 .color-white{
 	color: white;
+}
+
+/*========= [  extras  ]============== */
+.bold-open-sans{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+
+.open-sans{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.mar-top{
+	margin-top: 5%;
 }
 /*========= [ INFO  ]============== */
 .infoa{
@@ -54,7 +86,7 @@ header{
 	color: #545454;
 }
 .gvo{
-	padding-top: 2%;
+	padding-top: 3%;
 }
 hr{
 	border: solid #0051A9 5px;
@@ -69,6 +101,10 @@ hr{
 	background-color: #FBFBFB;
 	margin: 10% -2% 0%;
 	text-align: center;
+
+	-webkit-box-shadow: 3px 1px 11px 0px rgba(50, 50, 50, 0.21);
+	-moz-box-shadow:    3px 1px 11px 0px rgba(50, 50, 50, 0.21);
+	box-shadow:         3px 1px 11px 0px rgba(50, 50, 50, 0.21);
 }
 #ofrecemos .text{
 	font-size: 120%;
@@ -79,6 +115,7 @@ hr{
 }
 .btn-ofer{
 	margin: 5% 0; 
+	font-size: 1.3em;
 }
 
 /*========= [ BANNER  ]============== */
@@ -107,28 +144,31 @@ hr{
 	padding-top: 5%;
 }
 /*========= [ BANNER  ]============== */
-.blanco{
-	background-image: url('../img/blanco.jpg');
-	 background-repeat: no-repeat;
-   background-position: 100% 0;
-   background-size: contain;
-	min-height: 300px;
-   padding: 6%;
+
+.blanco,.azul,.verde,.naranja{
+   background-repeat: no-repeat;
+   background-position: center top;
+   background-size: 100% 100%;
+   height: 470px;
+   padding: 6% 3.5%;
    position: relative;
    text-align: center;
 }
+.blanco{
+	background-image: url('../img/blanco.jpg');
+}
 #promo .pro{
-	padding-top: 55%;
-	font-size: 200%;
+	padding-top: 40%;
+	font-size: 3em;
 	color:#F19700;
 }
 .blanco p{
 	color: #434343;
+	font-size: 1.3em;
 }
-.blanco h4{
+.blanco h4, .azul h4, .verde h4, .naranja h4{
 	color: #0958D3;
-	font-size: 142%;
-
+	font-size: 2.5em;
 }
 
 .ban{
@@ -136,47 +176,54 @@ hr{
 }
 .ban p{
 	color: white;
+	font-size: 1.3em;
 }
 .ban h4{
 	color: white;
-	font-size: 21px;
 }
 .azul{
 	background-image: url('../img/azul.jpg');
-	 background-repeat: no-repeat;
-   background-position: 100% 0;
-   background-size: contain;
-	min-height: 335px;
-   padding: 6%;
-   position: relative;
-   text-align: center;
-}
-.azul.ban h4{
-	font-size: 23px;
 }
 
 .verde{
 	background-image: url('../img/verde.jpg');
-	 background-repeat: no-repeat;
-   background-position: 100% 0;
-   background-size: contain;
-	min-height: 335px;
-   padding: 6%;
-   position: relative;
-   text-align: center;
 }
 
 .naranja{
 	background-image: url('../img/naranja.jpg');
-	 background-repeat: no-repeat;
-   background-position: 100% 0;
-   background-size: contain;
-	min-height: 332px;
-   padding: 6%;
-   position: relative;
-   text-align: center;
-   margin-left: -1%;
 }
 #promo .container{
 	padding: 0;
+}
+#promo .row{
+	margin: 0;
+}
+
+/*========= [ footer  ]============== */
+footer{
+	padding: 2em 0;
+}
+
+.form .col-md-6{
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.form-control{
+	border-radius: 0;
+	background-color: #D8E3FF;
+	color: #7F838A;
+}
+.pad-right{
+	margin-right: 0.25em;
+}
+.pad-left{
+	margin-left: 0.25em;
+}
+.form-modal{
+	padding: 1em;
+}
+
+.modal-content{
+	width: 80%;
 }

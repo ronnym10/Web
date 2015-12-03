@@ -4,22 +4,33 @@
 	<meta charset="UTF-8">
 	<title>Easy Calculus</title>
 	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/fonts.css">
+	<link href='https://fonts.googleapis.com/css?family=Slabo+27px|Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/media.css">
 </head>
 <body>
+
+	<!-- resolucion de formulario -->
+	<style>
+		#formuler input[type='text'],#formuler1 input[type='text']{
+			padding: 0.3em 0.5em;
+			height: 2.6em;
+		}
+	</style>
+	<!-- End resolucion de formulario -->
+
 	<!-- header -->
 	<header>
 		<div class="container">
 			<div class="row">
 				<!-- logo  -->
-				<div class="col-sm-2">
+				<div class="col-sm-3">
 					<!-- logo -->
-					<h1>LOGO</h1>
+					<img src="img/logoh.png" class="img-responsive center-block" alt="">
 				</div>
 
 				<!--  navegacion -->
-				<div class="col-sm-6 col-md-offset-1">
+				<div class="col-sm-5 col-sm-offset-1 col-md-5">
 					<ul class="nav nav-pills nav-justified text-center">
 						<li>
 							<a href="#">¿Que ofrecemos?</a>
@@ -41,7 +52,7 @@
 
 
 				<!-- boton de registrarse -->
-				<div class="col-sm-3">
+				<div class="col-sm-3 col-md-3 ">
 					<div class="marco">
 						<a href="#" class="btn btn-white-border center-block"> Registrarse</a>
 						<p class="text-center color-white"><small>easy.calculus.co@gmail.com</small></p>
@@ -61,9 +72,12 @@
 						<h2 class="infoa">CLASES DE MATEMÁTICAS CON <strong>PROFESORES UNIVERSITARIOS</strong>
 						</h2>
 						<hr align="left">
+
+						<!--  boton principal -->
+						<a href="#"  data-toggle="modal" data-target="#myModal" class='btn btn-principal mar-top'> SOLICITAR INFORMACIÓN</a>
 					</div>
 					<div class="col-md-6 gvo">
-						<img src="img/gvo-conference.png" alt="computador">
+						<img src="img/gvo-conference.png"  class="img-responsive mar-top" alt="computador">
 					</div>
 				</div>
 			</div>
@@ -78,18 +92,22 @@
 						<h1 class="ofer">¿Qué te ofrecemos?</h1>
 						<div class="col-md-4 text">
 							<img src="img/reloj.png" alt="reloj">
-							<p>Clases en vivo 24/7</p>
+							<p class="open-sans">Clases en vivo 24/7</p>
 						</div>
 						<div class="col-md-4 text">
 							<img src="img/persona.png" alt="persona">
-							<p>Profesores Universitarios</p>
+							<p class="open-sans">Profesores Universitarios</p>
 						</div>
 						<div class="col-md-4 text">
 							<img src="img/dolar.png" alt="pago">
-							<p>Mejores Precios</p>
+							<p class="open-sans">Mejores Precios</p>
 						</div>
 					</div>
-					<a class="btn btn-ofer">Tomar la primera clase de 2 horas por <strong>COP 30.000</strong></a>
+
+					<div class="row">
+						<a class="btn btn-ofer"  data-toggle="modal" data-target="#myModal">Tomar la primera clase de 2 horas por <strong>COP 30.000</strong></a>
+					</div>
+					
 				</div>
 			</div>
 		</section>
@@ -104,65 +122,64 @@
 					</div>
 				</div>
 				<div class="row fila">
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-4 col-xs-6">
 						<img src="img/libros.png" alt="libros">
 						<p>Matemática Básica</p>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-4 col-xs-6">
 						<img src="img/libros.png" alt="libros">
 						<p>Cálulo Diferencial</p>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-4 col-xs-6">
 						<img src="img/libros.png" alt="libros">
 						<p>Cálulo Integral</p>
 					</div>
-				</div>
-				<div class="row fila">
-					<div class="col-md-4">
+
+					<div class="col-md-4 col-sm-4 col-xs-6">
 						<img src="img/libros.png" alt="libros">
 						<p>Cálulo Multivariado/Vectorial</p>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-4 col-xs-6">
 						<img src="img/libros.png" alt="libros">
 						<p>Ecuaciones Diferenciales</p>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-4 col-xs-6">
 						<img src="img/libros.png" alt="libros">
 						<p>Álgebra Lineal</p>
 					</div>
 				</div>
-				<a class="btn btn-ofer">Tomar la primera clase de 2 horas por <strong>COP 30.000</strong></a>
+				<a class="btn btn-ofer"  data-toggle="modal" data-target="#myModal">Tomar la primera clase de 2 horas por <strong>COP 30.000</strong></a>
 			</div>
 		</section>
 		<!-- Off Banner-->
 
 		<!-- On Promo -->
 		<section id="promo">
-			<div class="container">
+			<div>
 				<div class="row">
-					<div class="col-md-3 blanco">
-						<p class="pro">¡PROMO!</p>
+					<div class="col-md-3 col-sm-6 col-xs-6 blanco">
+						<h2 class="pro">¡PROMO!</h2>
 						<p>Tu primera clase de dos horas por solo</p>
-						<h4>COP 30.000</h4>
+						<h4 class="bold-open-sans">COP 30.000</h4>
 						<p>COP 15.000 la hora</p>
 					</div>
 
-					<div class="col-md-3 azul ban">
+					<div class="col-md-3 col-sm-6  col-xs-6 azul ban">
 						<p>2 horas por solo</p>
-						<h4>COP 60.000</h4>
-						<p class="dmas">COP 15.000 la hora</p>
+						<h4 class="bold-open-sans">COP 60.000</h4>
+						<p class="dmas">COP 30.000 la hora</p>
 					</div>
 
-					<div class="col-md-3 verde ban">
+					<div class="col-md-3 col-sm-6  col-xs-6 verde ban">
 						<p>10 horas por solo</p>
-						<h4>COP 250.000</h4>
-						<p class="dmas">COP 15.000 la hora</p>
+						<h4 class="bold-open-sans">COP 250.000</h4>
+						<p class="dmas">COP 25.000 la hora</p>
 					</div>
 
-					<div class="col-md-3 naranja ban">
+					<div class="col-md-3 col-sm-6 col-xs-6 naranja ban">
 						<p>20 horas por solo</p>
-						<h4>COP 400.000</h4>
-						<p class="dmas">COP 15.000 la hora</p>
+						<h4 class="bold-open-sans">COP 400.000</h4>
+						<p class="dmas">COP 20.000 la hora</p>
 					</div>
 				</div>
 			</div>
@@ -172,8 +189,114 @@
 
 	<!-- footer -->
 	<footer>
-		
+		<div class="container">
+			<div class="row">
+				<!-- logo footer -->
+				<div class="col-md-6">
+					<img src="img/logof.png" alt="Easy Calculus" class="img-responsive center-block">
+				</div>
+				<!-- formulario -->
+				<div class="col-md-5 col-md-offset-1">
+					<form class="form" action="" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
+						
+						<div class="row">
+							<div class="form-group col-md-6 ">
+								 <input type="text" name="" id="" class="form-control pad-right" placeholder="Nombre:" data-validation="required"  data-validation-error-msg="Este Campo es obligatorio">
+							</div>
+
+							<div class="form-group col-md-6 ">
+								<input type="text" name="" id="" class="form-control pad-left" placeholder="Apellido:" data-validation="required" data-validation-error-msg="Este Campo es obligatorio">
+							</div>
+						</div>
+							
+						<div class="row">
+							<div class="form-group col-md-6 ">
+								<input type="text" name="" id="" class="form-control pad-right" placeholder="Correo Electronico:" data-validation="required" data-validation-error-msg="Este Campo es obligatorio">
+							</div>
+
+							<div class="form-group col-md-6 ">
+								<input type="text" name="" id="" class="form-control pad-left" placeholder="Teléfono:" data-validation="required" data-validation-error-msg="Este Campo es obligatorio">
+							</div>
+
+							<div class="form-group">
+								<textarea name="" id="" cols="10" rows="2" placeholder="¿Cual es tu Emergencia?" class="form-control" data-validation="required" data-validation-error-msg="Este Campo es obligatorio"></textarea>
+							</div>
+						</div>
+					
+
+							<div class="form-group text-center">
+								 <input type="submit" value="SOLICITAR INFORMACIÓN" class="btn btn-principal ">
+							</div>
+							
+					</form>
+				</div>
+				<!-- fin de formulario  -->
+			</div>
+		</div>
 	</footer>
 	<!-- end footer -->
+
+		<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title text-center" id="myModalLabel">
+							<strong>LLENA EL FORMULARIO PARA SOLICITAR MÁS INFORMACIÓN</strong>
+					</h4>
+				</div>
+				<div class="modal-body">
+				<!-- formulario -->
+					<form class="form form-modal" action="" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
+						
+						<div class="row">
+							<div class="form-group col-md-6 ">
+								 <input type="text" name="" id="" class="form-control pad-right" placeholder="Nombre:" data-validation="required"  data-validation-error-msg="Este Campo es obligatorio">
+							</div>
+
+							<div class="form-group col-md-6 ">
+								<input type="text" name="" id="" class="form-control pad-left" placeholder="Apellido:" data-validation="required" data-validation-error-msg="Este Campo es obligatorio">
+							</div>
+						</div>
+							
+						<div class="row">
+							<div class="form-group col-md-6 ">
+								<input type="text" name="" id="" class="form-control pad-right" placeholder="Correo Electronico:" data-validation="required" data-validation-error-msg="Este Campo es obligatorio">
+							</div>
+
+							<div class="form-group col-md-6 ">
+								<input type="text" name="" id="" class="form-control pad-left" placeholder="Teléfono:" data-validation="required" data-validation-error-msg="Este Campo es obligatorio">
+							</div>
+
+							<div class="form-group">
+								<textarea name="" id="" cols="10" rows="2" placeholder="¿Cual es tu Emergencia?" class="form-control" data-validation="required" data-validation-error-msg="Este Campo es obligatorio"></textarea>
+							</div>
+						</div>
+					
+
+							<div class="form-group text-center">
+								 <input type="submit" value="SOLICITAR INFORMACIÓN" class="btn btn-principal ">
+							</div>
+							
+					</form>
+				</div>
+					<!-- end of mautic -->
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- fin de modal  -->
+
+<!-- scripts  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+<script src="js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.2.8/jquery.form-validator.min.js"></script>
+<script>
+	$.validate(); 
+</script>
+
 </body>
 </html>

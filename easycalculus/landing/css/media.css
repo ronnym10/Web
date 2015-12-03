@@ -1,0 +1,86 @@
+/*========= [ tablets ]============== */
+@media (max-width:769px){
+	small{
+		font-size: 75%;
+	}
+	.sep-right{
+		display: none !important;
+	}
+
+	.infoa{
+		padding-top: 5%;
+		text-align: center;
+	}
+	hr{
+		width: 80%;
+		margin: .5em auto
+	}
+
+	#info {
+		text-align: center;
+	}
+	.ban{
+		padding-top: 28% !important;
+	}
+	.form{
+		width: 80%;
+		margin: 0 auto;
+	}
+	.pad-left, .pad-right {
+		margin: 0;
+	}
+	.modal-content{
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+/*========= [ telefono gama alta ]============== */
+@media (max-width:640px){
+	.nav{
+		display: none;
+	}
+	.ban{
+		padding-top: 35% !important;
+	}
+	header .col-sm-3{
+		padding: 0;
+	}
+}
+
+/*========= [ telefonos gama media ]============== */
+@media (max-width:480px){
+
+
+	.btn-principal,.btn-ofer{
+		font-size: 100%;
+	}
+
+	.ban{
+		padding-top: 45% !important;
+	}
+}
+
+/*========= [ telefonos gama baja]============== */
+@media (max-width:330px){
+	.btn{
+		word-wrap: break-word;
+		position: relative;
+		white-space:pre-line;
+	}
+	.col-xs-6{
+		width: 100%;
+	}
+	.modal-content{
+		width: 98%;
+	}
+	.form{
+		width: 98%;
+	}
+	.btn-principal:hover{
+		font-size: 100%;
+	}
+	.blanco,.azul,.verde,.naranja{
+		height:auto !important;
+	}
+}
